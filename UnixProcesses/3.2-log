@@ -1,0 +1,15 @@
+Script started on Tue 28 Jan 2020 06:41:23 PM CST
+[?1034hbash-4.2$ /[K./lab2cd lab2[1P./lab2[K./3-2 &[K[K-log[K[K[K[K & pstree 4236
+[1] 8739
+Process 8739’s parent process ID is 8682
+Process 8742’s parent process ID is 8739
+Process 8741’s parent process ID is 8739
+Process 8743’s parent process ID is 8741
+bash─┬─gedit───3*[{gedit}]
+     └─script───script───bash─┬─3-2─┬─3-2───3-2
+                              │     └─3-2
+                              └─pstree
+bash-4.2$ exit
+exit
+
+Script done on Tue 28 Jan 2020 06:42:30 PM CST
